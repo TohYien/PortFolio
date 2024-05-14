@@ -1,0 +1,100 @@
+body {
+  cursor: none;
+}
+/* mouse */
+.custom-cursor {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%; /* Make element round */
+  pointer-events: none; /*Prevent this element from affecting page interaction */
+  z-index: 9999; /*Make sure the element is on top of other content */
+  display: none; /* Hide initially */
+}
+
+/* navbar */
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-link:hover {
+  color: rgb(236, 87, 82);
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+}
+
+nav span {
+  color: rgb(236, 87, 82);
+}
+
+/* home */
+.home {
+  background-image: url(../images/home.webp);
+  width: 100%;
+  height: 100vh;
+}
+
+.home img {
+  border-radius: 20px;
+  width: 70%;
+  position: relative;
+  /* top: 110px;
+  left: 50px;  */
+}
+
+.home span {
+  color: white;
+}
+
+/* about */
+.about img {
+  width: 90%;
+}
+
+.about span {
+  color: rgb(236, 87, 82);
+}
+
+/* skills */
+.skills span {
+  color: rgb(236, 87, 82);
+}
+
+/* experience */
+.experience {
+}
+
+/* contact */
+.contact {
+  background-color: rgb(236, 87, 82);
+}
+
+/* footer */
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
